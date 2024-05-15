@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Validação de formulário</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário HTML</h1>
+        <form onsubmit="return validaNum()">
+            <input type="number" id="numA" required placeholder="Número A"/>
+            <input type="number" id="numB" required placeholder="Número B"/>
+            <button id="submit" type="submit">Submeter Formulário</button>
+        </form>
+    </div>
+
+    <p id="mensagem" class="mensagem">
+
+    </p>
+
+    <script src="main.js"></script>
+</body>
+</html>
